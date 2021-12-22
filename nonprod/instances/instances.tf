@@ -60,15 +60,15 @@ resource "google_compute_router" "router" {
 #---------------------------------------------------------------------------------------
 # Instance Creation 
 #---------------------------------------------------------------------------------------
-#  provider "google" {
-#   #credentials = file("/Users/chaitu/terraform-335119-ff0422db5f67.json")
-#   credentials = file("/Users/chaitu/gcp-migration-334418-1496f4dcabbe.json")
+/* provider "google" {
+  #credentials = file("/Users/chaitu/terraform-335119-ff0422db5f67.json")
+  credentials = file("/Users/chaitu/gcp-migration-334418-1496f4dcabbe.json")
 
 
-#   project = "gcp-migration-334418"
-#   region  = "us-central1"
-#   zone    = "us-central1-c"
-#  }
+  project = "gcp-migration-334418"
+  region  = "us-central1"
+  zone    = "us-central1-c"
+ }*/
 variable "environment" {
   type = string
 }
